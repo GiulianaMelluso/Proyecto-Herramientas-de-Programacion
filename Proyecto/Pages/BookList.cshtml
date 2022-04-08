@@ -1,0 +1,74 @@
+﻿@page
+@model Proyecto.Pages.BookListModel
+@inject Proyecto.Services.IBookService bookService;
+@using Microsoft.AspNetCore.Html;
+
+@functions {
+
+    private string VerificarEstado(Model.Book book)
+    {
+        if (book.Borrowed == false)
+        {
+            return "Prestado";
+        }
+        else
+        {
+            return "Disponible";
+        }
+
+    }
+
+}
+
+<table class="table">
+    <thead>
+        <tr>
+
+            <th>
+                <a asp-page="./BookList" asp-route-order="ByTitle">Título</a>
+            </th>
+            <th>
+                <a asp-page="./BookList" asp-route-order="ByAuthor">Autor</a>
+            </th>
+            <th>
+                <a asp-page="./BookList" asp-route-order="ByGenre">Autor</a>
+            </th>
+            <th>
+                <a asp-page="./BookList" asp-route-order="ByIsbn"> ISBN </a>
+            </th>
+            <th>
+                <a asp-page="./BookList" asp-route-order="ByState"> Estado </a>
+            </th>
+            <th>
+
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var b in Model.Books)
+        {
+            <tr>
+                <td>@b.Title</td>
+                <td>@b.Author</td>
+                <td>@b.Genre</td>
+                <td>@b.ISBN</td>
+                <td>@if (b.Borrowed == true)
+                    {
+                        <p style="color: green">
+                            @VerificarEstado(b)
+                        </p>
+                    }
+                    else
+                    {
+                        <p style="color: orange">
+                            @VerificarEstado(b)
+                        </p>
+                    }
+                </td>
+                <td>
+                    <a asp-page="./Update" asp-route-isbn="@b.ISBN">Editar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
