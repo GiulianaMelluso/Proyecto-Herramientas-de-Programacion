@@ -24,20 +24,20 @@ namespace Proyecto.Services
         {
             return Books;
         }
-        void IBookService.Create(Book book)
+        public void Create(Book book)
         {
             Books.Add(book);
         }
 
-        void IBookService.Delete(Book book)
+        public void Delete(Book book)
         {
             var prevBook = Books.Where(x => x.ISBN == book.ISBN).FirstOrDefault();
             Books.Remove(prevBook);
         }
 
-        void IBookService.Update(Book book)
+        public void Update(Book book)
         {
-            var prevBook=Books.Where(x=> x.ISBN==book.ISBN).FirstOrDefault();
+            var prevBook = Books.Where(x=> x.ISBN==book.ISBN).FirstOrDefault();
             Books.Remove(prevBook);
             Books.Add(book);
         }
