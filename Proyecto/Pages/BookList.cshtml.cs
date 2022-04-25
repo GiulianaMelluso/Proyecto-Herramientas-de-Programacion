@@ -47,5 +47,16 @@ namespace Proyecto.Pages
 
         }
 
+        public IActionResult OnPost(){
+            _bookService.Create(NewBook);
+            return RedirectToPage("BookList");
+        }
+
+            public void OnGetBorrar(int isbndelete){
+            var bookDelete = _bookService.ShowAll().Where(x=>x.ISBN==isbndelete).First();
+            _bookService.Delete(bookDelete);
+            Books=_bookService.ShowAll().ToList();
+        }
+
     }
 }

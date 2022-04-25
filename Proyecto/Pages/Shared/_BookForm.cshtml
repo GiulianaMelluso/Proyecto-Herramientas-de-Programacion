@@ -1,0 +1,37 @@
+﻿@model Proyecto.Model.Book
+
+@if(@Model==null || @Model.ISBN==0 ){
+    <h2>Registrar un nuevo libro</h2>
+}
+else{
+    <h2>Modificar el libro "<span>@Model.Title</span>"" </h2>
+}
+
+
+<form method="post">
+    <div class="form-group">
+        <input type="text" asp-for="@Model.Title" placeholder="Ingrese título" />
+        <span asp-validation-for="@Model.Title" class="badge badge-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="text" asp-for="@Model.Author" placeholder="Ingrese autor" />
+        <span asp-validation-for="@Model.Author" class="badge badge-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="text" asp-for="@Model.Genre" placeholder="Ingresar género" />
+        <span asp-validation-for="@Model.Genre" class="badge badge-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="text" asp-for="@Model.ISBN" placeholder="Ingresar ISBN" />
+        <span asp-validation-for="@Model.ISBN" class="badge badge-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="checkbox" asp-for="@Model.Borrowed" /> Disponible?
+        <span asp-validation-for="@Model.Borrowed" class="badge badge-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" class="btn btn-primary" value="Grabar" />
+    </div>
+    <div>
+
+</form>

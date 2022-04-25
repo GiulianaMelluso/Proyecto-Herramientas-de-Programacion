@@ -40,3 +40,6 @@ Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto\Proyecto\o
 Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto\Proyecto\obj\Debug\net5.0\Proyecto.csproj.CopyComplete
 Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto\Proyecto\obj\Debug\net5.0\Razor\Pages\BookList.cshtml.g.cs
 Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto\Proyecto\obj\Debug\net5.0\Razor\Pages\Update.cshtml.g.cs
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto\Proyecto\obj\Debug\net5.0\Razor\Pages\Create.cshtml.g.cs
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto\Proyecto\obj\Debug\net5.0\Razor\Pages\Shared\_Grid.cshtml.g.cs
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto\Proyecto\obj\Debug\net5.0\Razor\Pages\Shared\_BookForm.cshtml.g.cs

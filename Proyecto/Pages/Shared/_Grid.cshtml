@@ -1,0 +1,83 @@
+﻿@model List<Proyecto.Model.Book>
+@using Microsoft.AspNetCore.Html;
+@{
+}
+
+@functions {
+
+    private string VerificarEstado(Model.Book book)
+    {
+        if (book.Borrowed == false)
+        {
+            return "Disponible";
+        }
+        else
+        {
+            return "Prestado";
+        }
+
+    }
+
+}
+
+<table class="table">
+    <thead>
+        <tr>
+
+            <th>
+                <a asp-page="./BookList" asp-route-order="ByTitle">Título</a>
+            </th>
+            <th>
+                <a asp-page="./BookList" asp-route-order="ByAuthor">Autor</a>
+            </th>
+            <th>
+                <a asp-page="./BookList" asp-route-order="ByGenre">Autor</a>
+            </th>
+            <th>
+                <a asp-page="./BookList" asp-route-order="ByIsbn"> ISBN </a>
+            </th>
+            <th>
+                <a asp-page="./BookList" asp-route-order="ByState"> Estado </a>
+            </th>
+            <th>
+
+            </th>
+            <th>
+
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var b in Model)
+        {
+            <tr>
+                <td>@b.Title</td>
+                <td>@b.Author</td>
+                <td>@b.Genre</td>
+                <td>@b.ISBN</td>
+                <td>@if (b.Borrowed == true)
+                    {
+                        <p style="color: orange">
+                            @VerificarEstado(b)
+                        </p>
+                    }
+                    else
+                    {
+                        <p style="color: green">
+                            @VerificarEstado(b)
+                        </p>
+                    }
+                </td>
+                <td>
+                    <a asp-page="./Update" asp-route-isbn="@b.ISBN">Editar</a>
+                </td>
+                <td>
+                    <a asp-page="BookList" class="btn btn-danger" asp-page-handler="Borrar"
+                        onclick="return confirm('Está seguro de que quiere eliminar el libro?')"
+                        asp-route-isbndelete="@b.ISBN">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

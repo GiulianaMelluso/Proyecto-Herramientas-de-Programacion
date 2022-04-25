@@ -3,10 +3,6 @@
 @{
 }
 
-<form method="post">
-<input type="text" asp-for="@Model.SBook.Title"/>
-<input type="text" asp-for="@Model.SBook.Author"/>
-<input type="text" asp-for="@Model.SBook.Genre"/>
-<input type="text" asp-for="@Model.SBook.ISBN"/>
-<input type="submit" value="Grabar"/>
-</form>
+<partial name="_BookForm" model="@Model.SBook" /> 
+
+</div>
