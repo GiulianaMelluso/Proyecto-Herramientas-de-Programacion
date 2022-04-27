@@ -3,8 +3,18 @@
 @inject Proyecto.Services.IBookService bookService;
 @using Microsoft.AspNetCore.Html;
 
+<div class="text-center">
+    <form asp-page="BookList" method="post" asp-page-handler="Search">
+        <input type="text" name="nameSearch" placeholder="Buscar por título" />
+        <input type="submit" class="btn btn-primary" style="margin-top:10px" value= "Buscar" />
+
+    </form>
+</div>
+
 <partial name="_Grid" model="Model.Books" />
 
-<form action="./Create">
-    <input type="submit" class="btn btn-primary" value="Agregar un Libro" />
-</form>
+<div class="text-center">
+    <form action="./Create">
+        <input type="submit" class="btn btn-primary" value="Agregar un Libro" />
+    </form>
+</div>

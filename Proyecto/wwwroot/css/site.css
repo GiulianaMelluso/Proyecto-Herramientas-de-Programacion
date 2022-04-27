@@ -12,6 +12,11 @@ a {
   color: #75a478;
 }
 
+input[type=text] {
+  width: 100%;
+}
+
+
 .btn-primary {
   color: #fff;
   background-color: #75a478;
@@ -39,10 +44,23 @@ a {
 }
 
 .table-container{
-  margin-top: 80px;
+  margin-top: 40px;
 }
 
+.search-bar{
+  margin-top: 30px;
+}
 
+.display-4{
+  font-size: 3em;
+  color: #75a478;
+}
+
+.form-buttons{
+
+  display: flex;
+  justify-content: center;
+}
 /* Sticky footer styles
 -------------------------------------------------- */
 html {

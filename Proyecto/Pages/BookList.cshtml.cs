@@ -58,5 +58,12 @@ namespace Proyecto.Pages
             Books=_bookService.ShowAll().ToList();
         }
 
+            public void OnPostSearch(string nameSearch){
+                if(nameSearch != null){
+                Books=_bookService.ShowAll().Where(x=>x.Title.ToLower().Contains(nameSearch.ToLower())).ToList();
+            }
+            
+        }
+
     }
 }

@@ -9,11 +9,11 @@
     {
         if (book.Borrowed == false)
         {
-            return "Disponible";
+            return "Prestado";
         }
         else
         {
-            return "Prestado";
+            return "Disponible";
         }
 
     }
@@ -61,28 +61,30 @@
                     <td>@b.ISBN</td>
                     <td>@if (b.Borrowed == true)
                         {
-                            <p style="color: orange">
+                            <p style="color: green">
                                 @VerificarEstado(b)
                             </p>
                         }
                         else
                         {
-                            <p style="color: green">
+                            <p style="color: orange">
                                 @VerificarEstado(b)
                             </p>
                         }
                     </td>
                     <td>
-                        <a class="btn btn-primary" asp-page="./Update" asp-route-isbn="@b.ISBN"><span class="fa fa-pencil" title="Editar"></span></a>
+                        <a class="btn btn-primary" asp-page="./Update" asp-route-isbn="@b.ISBN"><span class="fa fa-pencil"
+                            title="Editar"></span></a>
                     </td>
                     <td>
-                        <a  class="btn btn-primary" asp-page="BookList" asp-page-handler="Borrar"
+                        <a class="btn btn-primary" asp-page="BookList" asp-page-handler="Borrar"
                         onclick="return confirm('Está seguro de que quiere eliminar el libro?')"
                         asp-route-isbndelete="@b.ISBN"><span style="font-size:20px" class="fa">&#xf014;</span></a>
-                        
+
                     </td>
                 </tr>
             }
         </tbody>
     </table>
+
 </div>
