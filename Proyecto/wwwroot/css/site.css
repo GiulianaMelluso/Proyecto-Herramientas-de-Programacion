@@ -9,20 +9,39 @@ a.navbar-brand {
 
 /* Provide sufficient contrast against white background */
 a {
-  color: #0366d6;
+  color: #75a478;
 }
 
 .btn-primary {
   color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+  background-color: #75a478;
+  border-color: #75a478; /*set the color you want here*/
+  border-radius: 0%;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #a5d6a7;
+  border-color: #a5d6a7; /*set the color you want here*/
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+  background-color: #75a478;
+  border-color: #75a478;
 }
+
+.nav-item{
+  margin-left: 20px;
+}
+
+.text-center{
+  margin-top: 30px;
+}
+
+.table-container{
+  margin-top: 80px;
+}
+
 
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -51,6 +70,11 @@ button.accept-policy {
   line-height: inherit;
 }
 
+.main-title{
+  display: flex;
+  margin-top: 30px;
+  justify-items: center;
+}
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -68,4 +92,21 @@ body {
   width: 100%;
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
+}
+
+.navbar{
+  background-color: #a5d6a7;
+}
+
+.form-container{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 17%;
+}
+
+.img-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
 }

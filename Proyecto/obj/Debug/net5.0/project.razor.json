@@ -15649,11 +15649,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto\\Proyecto\\Pages\\Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto\\Proyecto\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
