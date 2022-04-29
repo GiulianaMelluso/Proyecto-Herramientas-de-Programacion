@@ -7,7 +7,7 @@
 
     private string VerificarEstado(Model.Book book)
     {
-        if (book.Borrowed == false)
+        if (book.Member != null)
         {
             return "Prestado";
         }
@@ -43,6 +43,9 @@
                 <th>
                     <a asp-page="./BookList" asp-route-order="ByState"> Estado </a>
                 </th>
+                 <th>
+                    <a asp-page="./BookList"> Miembro </a>
+                </th>
                 <th>
 
                 </th>
@@ -59,7 +62,7 @@
                     <td>@b.Author</td>
                     <td>@b.Genre</td>
                     <td>@b.ISBN</td>
-                    <td>@if (b.Borrowed == true)
+                    <td>@if (b.Member == null)
                         {
                             <p style="color: green">
                                 @VerificarEstado(b)
@@ -71,6 +74,14 @@
                                 @VerificarEstado(b)
                             </p>
                         }
+                    </td>
+                    <td>@if(b.Member == null){
+                        <p>
+                        -
+                        </p>
+                    }else{
+                        @b.Member.Name
+                    }
                     </td>
                     <td>
                         <a class="btn btn-primary" asp-page="./Update" asp-route-isbn="@b.ISBN"><span class="fa fa-pencil"

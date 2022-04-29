@@ -36,8 +36,12 @@ namespace Proyecto.Model
         [Required (ErrorMessage = "El campo es obligatorio")]
         public int ISBN {get;set;}
 
-
-
         public bool Borrowed {get;set;}
+
+        public Member Member {get;set;}
+
+        public int Member_Id {get;set;}
+
+
     }
 }
