@@ -8,15 +8,16 @@ namespace Proyecto.Services
     {
 
         private List<Book> Books;
+        
         public BookService()
         {
             Books = new List<Book>(){
                 new Book(){Title="Orgullo y Prejuicio", Author = "Jane Austen", Genre = "Romance", ISBN = 978 , Borrowed = false},
-                new Book(){Title="Los Miserables", Author = "Víctor Hugo", Genre = "Novela", ISBN = 478 , Borrowed = true},
+                new Book(){Title="Los Miserables", Author = "Víctor Hugo", Genre = "Novela", ISBN = 478 , Borrowed = false},
                 new Book(){Title="La Divina Comedia", Author = "Dante Alighieri", Genre = "Epopeya", ISBN = 595 , Borrowed = false},
-                new Book(){Title="Cien años de Soledad", Author = "Gabriel García Márquez", Genre = "Realismo mágico", ISBN = 856 , Borrowed = true},
+                new Book(){Title="Cien años de Soledad", Author = "Gabriel García Márquez", Genre = "Realismo mágico", ISBN = 856 , Borrowed = false},
                 new Book(){Title="El Principito", Author = "Antoine de Saint-Exupéry", Genre = "Novela infantil", ISBN = 246 , Borrowed = false},
-                new Book(){Title="Un mundo feliz", Author = "Aldous Huxley", Genre = "Ficción distópica", ISBN = 113 , Borrowed = true}
+                new Book(){Title="Un mundo feliz", Author = "Aldous Huxley", Genre = "Ficción distópica", ISBN = 113 , Borrowed = false}
             };
         }
 

@@ -28,11 +28,13 @@ else{
         <span asp-validation-for="@Model.ISBN" class="badge badge-danger"></span>
     </div>
     <div class="form-group">
-        <input type="checkbox" asp-for="@Model.Borrowed" /> Disponible?
-        <span asp-validation-for="@Model.Borrowed" class="badge badge-danger"></span>
+        <input type="hidden" asp-for="@Model.Borrowed" />
     </div>
     <div class="form-group">
-        <input type="submit" class="btn btn-primary" value="Grabar" />
+        @Html.DropDownList("Member_Id",(IEnumerable<SelectListItem>)ViewData["Members"] )
+    </div>
+    <div class="form-group">
+        <input type="submit" class="btn btn-primary" value="Guardar" />
     </div>
     <div>
 
