@@ -1,5 +1,5 @@
 {
-  "FilePath": "q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto\\Proyecto\\Proyecto.csproj",
+  "FilePath": "q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto-Primera Parte\\Proyecto\\Proyecto\\Proyecto.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,58 +15619,58 @@
   "RootNamespace": "Proyecto",
   "Documents": [
     {
-      "FilePath": "q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto\\Proyecto\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Pages\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto\\Proyecto\\Pages\\Create.cshtml",
+      "FilePath": "q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto-Primera Parte\\Proyecto\\Proyecto\\Pages\\Create.cshtml",
       "TargetPath": "Pages\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto\\Proyecto\\Pages\\BookList.cshtml",
-      "TargetPath": "Pages\\BookList.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto\\Proyecto\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto\\Proyecto\\Pages\\Shared\\_Grid.cshtml",
-      "TargetPath": "Pages\\Shared\\_Grid.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto\\Proyecto\\Pages\\Shared\\_Layout.cshtml",
+      "FilePath": "q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto-Primera Parte\\Proyecto\\Proyecto\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto\\Proyecto\\Pages\\_ViewImports.cshtml",
-      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FilePath": "q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto-Primera Parte\\Proyecto\\Proyecto\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto\\Proyecto\\Pages\\Shared\\_BookForm.cshtml",
-      "TargetPath": "Pages\\Shared\\_BookForm.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto\\Proyecto\\Pages\\Update.cshtml",
-      "TargetPath": "Pages\\Update.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto\\Proyecto\\Pages\\Error.cshtml",
+      "FilePath": "q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto-Primera Parte\\Proyecto\\Proyecto\\Pages\\Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto\\Proyecto\\Pages\\Index.cshtml",
+      "FilePath": "q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto-Primera Parte\\Proyecto\\Proyecto\\Pages\\Update.cshtml",
+      "TargetPath": "Pages\\Update.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto-Primera Parte\\Proyecto\\Proyecto\\Pages\\BookList.cshtml",
+      "TargetPath": "Pages\\BookList.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto-Primera Parte\\Proyecto\\Proyecto\\Pages\\Shared\\_BookForm.cshtml",
+      "TargetPath": "Pages\\Shared\\_BookForm.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto-Primera Parte\\Proyecto\\Proyecto\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto-Primera Parte\\Proyecto\\Proyecto\\Pages\\Index.cshtml",
       "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto-Primera Parte\\Proyecto\\Proyecto\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto-Primera Parte\\Proyecto\\Proyecto\\Pages\\Shared\\_Grid.cshtml",
+      "TargetPath": "Pages\\Shared\\_Grid.cshtml",
       "FileKind": "mvc"
     }
   ],

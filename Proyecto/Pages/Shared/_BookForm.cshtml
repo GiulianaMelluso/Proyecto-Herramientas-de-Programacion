@@ -28,7 +28,7 @@ else{
         <span asp-validation-for="@Model.ISBN" class="badge badge-danger"></span>
     </div>
     <div class="form-group">
-        <input type="hidden" asp-for="@Model.Borrowed" />
+        <input type="checkbox" asp-for="@Model.Borrowed" />
     </div>
     <div class="form-group">
         <input type="submit" class="btn btn-primary" value="Guardar" />

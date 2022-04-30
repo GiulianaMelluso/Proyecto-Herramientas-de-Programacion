@@ -17,12 +17,9 @@ namespace Proyecto.Pages
         public Book NewBook { get; set; }
 
         private IBookService _bookService;
-        private IMemberService _memberService;
-
-        public CreateModel(IBookService bookService, IMemberService memberService)
+        public CreateModel(IBookService bookService)
         {
             _bookService = bookService;
-            _memberService = memberService;
         }
 
         public void OnGet()
@@ -31,10 +28,10 @@ namespace Proyecto.Pages
 
         public IActionResult OnPost()
         {
-            if(ModelState.IsValid){
+            
                 _bookService.Create(NewBook);
                 return RedirectToPage("BookList");
-            }
+            
             return Page();
         }
     }

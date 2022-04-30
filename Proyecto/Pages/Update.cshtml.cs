@@ -15,19 +15,14 @@ namespace Proyecto.Pages
         [BindProperty]
         public Book SBook {get;set;}
         private IBookService _bookService;
-        private IMemberService _memberService;
 
-        public UpdateModel(IBookService bookService,IMemberService memberService){
+        public UpdateModel(IBookService bookService){
             _bookService=bookService;
-            _memberService=memberService;
         }
         public void OnGet(int isbn)
         {
             SBook = _bookService.ShowAll().Where(x=> x.ISBN==isbn).First();
 
-            var members=_memberService.ShowAll();
-            ViewData["Members"] = new SelectList(members,"MemberId","Name");
-        
         }
 
         public IActionResult OnPost(){

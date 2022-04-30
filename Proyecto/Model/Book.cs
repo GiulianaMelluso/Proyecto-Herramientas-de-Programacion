@@ -38,8 +38,6 @@ namespace Proyecto.Model
 
         public bool Borrowed {get;set;}
 
-        public Member Member {get;set;}
-
         public int Member_Id {get;set;}
 
 

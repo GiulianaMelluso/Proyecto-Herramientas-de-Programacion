@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto\\Proyecto\\Proyecto.csproj": {}
+    "Q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto-Primera Parte\\Proyecto\\Proyecto\\Proyecto.csproj": {}
   },
   "projects": {
-    "Q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto\\Proyecto\\Proyecto.csproj": {
+    "Q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto-Primera Parte\\Proyecto\\Proyecto\\Proyecto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto\\Proyecto\\Proyecto.csproj",
+        "projectUniqueName": "Q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto-Primera Parte\\Proyecto\\Proyecto\\Proyecto.csproj",
         "projectName": "Proyecto",
-        "projectPath": "Q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto\\Proyecto\\Proyecto.csproj",
+        "projectPath": "Q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto-Primera Parte\\Proyecto\\Proyecto\\Proyecto.csproj",
         "packagesPath": "C:\\Users\\Giuliana\\.nuget\\packages\\",
-        "outputPath": "Q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto\\Proyecto\\obj\\",
+        "outputPath": "Q:\\Facultad\\ISTEA\\Segundo año\\Herramientas de Programación\\Proyecto-Primera Parte\\Proyecto\\Proyecto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Giuliana\\AppData\\Roaming\\NuGet\\NuGet.Config",

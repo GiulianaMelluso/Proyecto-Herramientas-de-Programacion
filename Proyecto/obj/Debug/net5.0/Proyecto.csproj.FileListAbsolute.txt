@@ -42,3 +42,47 @@ Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto\Proyecto\o
 Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto\Proyecto\obj\Debug\net5.0\Razor\Pages\Create.cshtml.g.cs
 Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto\Proyecto\obj\Debug\net5.0\Razor\Pages\Shared\_Grid.cshtml.g.cs
 Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto\Proyecto\obj\Debug\net5.0\Razor\Pages\Shared\_BookForm.cshtml.g.cs
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\bin\Debug\net5.0\appsettings.Development.json
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\bin\Debug\net5.0\appsettings.json
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\bin\Debug\net5.0\Proyecto.exe
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\bin\Debug\net5.0\Proyecto.deps.json
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\bin\Debug\net5.0\Proyecto.runtimeconfig.json
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\bin\Debug\net5.0\Proyecto.runtimeconfig.dev.json
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\bin\Debug\net5.0\Proyecto.dll
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\bin\Debug\net5.0\ref\Proyecto.dll
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\bin\Debug\net5.0\Proyecto.pdb
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\bin\Debug\net5.0\Proyecto.Views.dll
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\bin\Debug\net5.0\Proyecto.Views.pdb
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\Proyecto.csproj.AssemblyReference.cache
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\Proyecto.GeneratedMSBuildEditorConfig.editorconfig
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\Proyecto.AssemblyInfoInputs.cache
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\Proyecto.AssemblyInfo.cs
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\Proyecto.csproj.CoreCompileInputs.cache
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\Proyecto.MvcApplicationPartsAssemblyInfo.cache
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\Proyecto.RazorAssemblyInfo.cache
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\Proyecto.RazorAssemblyInfo.cs
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\staticwebassets\Proyecto.StaticWebAssets.Manifest.cache
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\staticwebassets\Proyecto.StaticWebAssets.xml
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\scopedcss\bundle\Proyecto.styles.css
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\Proyecto.TagHelpers.input.cache
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\Proyecto.TagHelpers.output.cache
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\Proyecto.RazorCoreGenerate.cache
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\Razor\Pages\BookList.cshtml.g.cs
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\Razor\Pages\Create.cshtml.g.cs
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\Razor\Pages\Shared\_BookForm.cshtml.g.cs
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\Razor\Pages\Shared\_Grid.cshtml.g.cs
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\Razor\Pages\Update.cshtml.g.cs
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\Proyecto.RazorTargetAssemblyInfo.cache
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\Proyecto.RazorTargetAssemblyInfo.cs
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\Proyecto.Views.pdb
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\Proyecto.dll
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\ref\Proyecto.dll
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\Proyecto.pdb
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\Proyecto.genruntimeconfig.cache
+Q:\Facultad\ISTEA\Segundo año\Herramientas de Programación\Proyecto-Primera Parte\Proyecto\Proyecto\obj\Debug\net5.0\Proyecto.csproj.CopyComplete

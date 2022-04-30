@@ -26,7 +26,6 @@ namespace Proyecto
         {
             services.AddRazorPages();
             services.AddSingleton<IBookService,BookService>();
-            services.AddSingleton<IMemberService,MemberService>();
             }
             
 
