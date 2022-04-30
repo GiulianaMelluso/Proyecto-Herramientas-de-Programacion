@@ -27,9 +27,6 @@ namespace Proyecto.Pages
 
         public void OnGet()
         {
-            var members=_memberService.ShowAll();
-            ViewData["Members"] = new SelectList(members,"MemberId","Name");
-
         }   
 
         public IActionResult OnPost()

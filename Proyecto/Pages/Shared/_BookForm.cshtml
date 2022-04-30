@@ -31,9 +31,6 @@ else{
         <input type="hidden" asp-for="@Model.Borrowed" />
     </div>
     <div class="form-group">
-        @Html.DropDownList("Member_Id",(IEnumerable<SelectListItem>)ViewData["Members"] )
-    </div>
-    <div class="form-group">
         <input type="submit" class="btn btn-primary" value="Guardar" />
     </div>
     <div>
